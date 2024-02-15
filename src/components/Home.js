@@ -1,8 +1,14 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import profilePic from '../profilepic.jpg';
 
 export default function Home() {
   return (
     <div className="w-[80rem] mt-16">
+
+    <picture>
+     <img src={profilePic} alt="Profile Picture" className="w-40 h-40 rounded-full mr-4" />
+    </picture>
+
       <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-sky-700">
         Hello, I'm Dines Dayrit! 🌟
       </h2>
