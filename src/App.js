@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from "./components/Sidebar";
+import Home from "./components/Home";
+import Experience from "./components/Experience";
+
+import { useState } from "react";
 
 function App() {
+  const [showHome, setShowHome] = useState(true);
+  const [showExperience, setShowExperience] = useState(false);
+
+  const homeClick = () =>{
+    setShowHome(true)
+    setShowExperience(false)
+  }
+
+  const experienceClick = () => {
+    setShowExperience(true)
+    setShowHome(false)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="h-screen flex gap-20">
+    
+    <Sidebar 
+      showHome = {homeClick}
+      showExperience = {experienceClick}
+    />
+ 
+    {showHome && (
+      <Home />
+    )}
+
+    {showExperience && (
+    <Experience/>
+    )}
+
+    </main>
   );
 }
 
