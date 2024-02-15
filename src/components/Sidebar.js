@@ -1,5 +1,5 @@
 export default function Sidebar(props) {
-    const buttonStyles = "px-4 py-4 text-xs md:text-base text-sky-400 hover:text-stone-50 uppercase hover:bg-stone-800";
+    const buttonStyles = "px-4 py-4 text-xs md:text-base text-sky-400 hover:text-stone-50 uppercase hover:bg-stone-800 text-left";
     
     const homeClick = () =>{
       props.showHome();
