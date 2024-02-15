@@ -16,12 +16,12 @@ export default function Home() {
         A passionate Web Developer with expertise in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a leading fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
       </p>
 
-      <div className="mt-8">
-        <a href="https://www.linkedin.com/in/dines-dayrit-067103284/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mr-4">
+      <div className="mt-8 flex flex-col md:flex-row items-center">
+        <a href="https://www.linkedin.com/in/dines-dayrit-067103284/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
           <FaLinkedin className="inline-block mr-2" />
           LinkedIn
         </a>
-        <a href="https://github.com/dinesdayrit" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full">
+        <a href="https://github.com/dinesdayrit" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
           <FaGithub className="inline-block mr-2" />
           GitHub
         </a>
