@@ -3,7 +3,7 @@ import profilePic from '../profilepic.jpg';
 
 export default function Home() {
   return (
-    <div className="w-[80rem] mt-16 ">
+    <div className="w-[70rem] mt-16 ">
 
      <div className="flex items-center">
   
