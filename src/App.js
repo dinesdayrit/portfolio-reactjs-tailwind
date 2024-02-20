@@ -2,6 +2,7 @@ import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 import { useState } from "react";
@@ -9,13 +10,16 @@ import { useState } from "react";
 function App() {
   const [showHome, setShowHome] = useState(true);
   const [showExperience, setShowExperience] = useState(false);
-  const [showContact, setContact] = useState(false);
   const [showSkills, setShowSkills] = useState(false);
+  const [showProjects, setShowProjects] = useState(false);
+  const [showContact, setContact] = useState(false);
+ 
 
   const homeClick = () =>{
     setShowHome(true)
     setShowExperience(false)
     setShowSkills(false);
+    setShowProjects(false);
     setContact(false);
     
   }
@@ -24,12 +28,22 @@ function App() {
     setShowExperience(true)
     setShowHome(false)
     setShowSkills(false);
+    setShowProjects(false);
     setContact(false);
   }
   const skillsClick = () => {
     setShowSkills(true);
     setShowHome(false)
     setShowExperience(false)
+    setShowProjects(false);
+    setContact(false);
+  }
+
+  const projectsClick =() =>{
+    setShowProjects(true);
+    setShowHome(false)
+    setShowExperience(false)
+    setShowSkills(false);
     setContact(false);
   }
 
@@ -37,20 +51,23 @@ function App() {
     setContact(true);
     setShowHome(false)
     setShowSkills(false);
+    setShowProjects(false);
     setShowExperience(false)
 
   }
 
   return (
-    <main className="h-screen flex gap-20 bg-orange-100">
+   <main className="h-screen flex gap-20 bg-orange-100">
     
     <Sidebar 
       showHome = {homeClick}
       showExperience = {experienceClick}
       showSkills = {skillsClick}
       showContact = {contactClick}
+      showProjects = {projectsClick}
     />
  
+   <div className="flex-1 overflow-auto">
     {showHome && (
       <Home />
     )}
@@ -63,11 +80,15 @@ function App() {
     <Skills />
     )} 
 
+    {showProjects && (
+    <Projects />
+    )}
     {showContact && (
     <Contact/>
     )}
+   </div>
 
-    </main>
+   </main>
   );
 }
 
