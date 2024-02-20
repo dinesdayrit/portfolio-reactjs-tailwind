@@ -9,6 +9,10 @@ export default function Sidebar(props) {
       props.showExperience();
     }
 
+    const skillsClick = () => {
+      props.showSkills();
+    }
+
     const contactClick = () => {
       props.showContact();
     }
@@ -28,8 +32,11 @@ export default function Sidebar(props) {
           className={buttonStyles}
           onClick={experienceClick}
           >Experience</button>
-          <button className={buttonStyles}>Skills</button>
-          <button className={buttonStyles}>Project</button>
+          <button 
+          className={buttonStyles}
+          onClick={skillsClick}
+          >Skills</button>
+          <button className={buttonStyles}>Projects</button>
           <button 
           className={buttonStyles}
           onClick={contactClick}
