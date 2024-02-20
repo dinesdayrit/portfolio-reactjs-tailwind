@@ -31,7 +31,7 @@ export default function Projects() {
                 <p className="mb-10">I am currently working on a GIS Web Application for an LGU. 
                 This application helps users locate the exact location of land properties and can also plot parcels using their land titles' technical descriptions, as well as assign Property Index Numbers (PINs).</p>
                
-               <Slider {...settings}>
+               <Slider {...settings} className="w-[60rem]">
                 <div>
                 <img src={gishomepic} alt="Gis menupage" />
                 </div>
