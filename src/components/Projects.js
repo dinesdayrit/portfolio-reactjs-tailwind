@@ -64,7 +64,7 @@ export default function Projects() {
                 Source code Click <a href='https://github.com/dinesdayrit/drumkit' className='text-blue-500 hover:text-blue-800'>Here</a>
                 </p>
                 <p>
-                Deployed on vercel <a href='https://drumkit-ten-delta.vercel.app/' className='text-blue-500 hover:text-blue-800'>Click Here</a>
+                Deployed on vercel <a href='https://drumkit-ten-delta.vercel.app/' className='text-blue-500 hover:text-blue-800'>drumkit-ten-delta.vercel.app/</a>
                 </p>
                 <img src={drumkitpic} className="w-[10rem] md:w-[60rem] mt-4"/>
 
