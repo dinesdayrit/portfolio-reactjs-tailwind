@@ -1,7 +1,7 @@
 export default function Contact() {
 
     return (
-      <div className="w-[70rem] mt-16">
+      <div className="w-[10rem] mt-16 md:w-[70rem]">
         <h2 className="font-serif font-bold text-3xl mb-5  text-sky-700">Contact me</h2>
   
         <p className="font-serif font-semibold mb-1 text-sky-500">Phone</p>

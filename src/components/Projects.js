@@ -21,7 +21,7 @@ export default function Projects() {
        
     
     return (
-      <div className="w-[70rem] mt-16">
+      <div className="w-[10rem] mt-16 md:w-[70rem]">
         <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700">My Projects</h2>
         <div>
             <div>
@@ -31,7 +31,7 @@ export default function Projects() {
                 <p className="mb-4">I am currently working on a GIS Web Application for an LGU. 
                 This application helps users locate the exact location of land properties and can also plot parcels using their land titles' technical descriptions, as well as assign Property Index Numbers (PINs). I use ReactJS for FE , ExpressJS for BE and PostGre for DB.</p>
                
-               <Slider {...settings} className="w-[60rem]">
+               <Slider {...settings} className="w-[10rem] md:w-[60rem]">
                 <div>
                 <img src={gishomepic} alt="Gis menupage" />
                 </div>

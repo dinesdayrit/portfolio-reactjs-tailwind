@@ -3,13 +3,13 @@ import profilePic from '../profilepic.jpg';
 
 export default function Home() {
   return (
-    <div className="w-[70rem] mt-16 ">
+    <div className="w-[10rem] mt-16 md:w-[70rem]">
 
-     <div className="flex items-center">
+     <div className="flex items-center max-sm:flex-col">
   
       <img src={profilePic} alt="Profile Picture" className="w-40 h-40 rounded-full mr-4" />
 
-      <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-sky-700">
+      <h2 className="font-bold text-xl md:text-4xl lg:text-5xl text-sky-700">
         Hello, I'm Dines Dayrit! 🌟
       </h2>
 

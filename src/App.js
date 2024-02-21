@@ -57,7 +57,7 @@ function App() {
   }
 
   return (
-   <main className="h-screen flex gap-20 bg-orange-100">
+   <main className="h-screen flex gap-10 bg-orange-100 md:gap-20">
     
     <Sidebar 
       showHome = {homeClick}
