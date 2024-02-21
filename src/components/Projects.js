@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import gishomepic from '../projectpictures/home.png';
 import sampleplotting1 from '../projectpictures/sampleplotting1.png';
 import sampleplotting2 from '../projectpictures/sampleplotting2.png';
+import drumkitpic from '../projectpictures/drumkit.png';
 
 
 
@@ -54,6 +55,19 @@ export default function Projects() {
                 <p>
                 Source code Click <a href='https://github.com/dinesdayrit/portfolio-reactjs-tailwind' className='text-blue-500 hover:text-blue-800'>Here</a>
                 </p>
+                </li> 
+
+                <li className='mb-10'>
+                <h3 className="uppercase font-bold text-orange-500">Drum Kit</h3>
+                <p>A simple interactive drum kit project developed using JavaScript.A simple interactive drum kit project developed using JavaScript. This small application was part of a Udemy course that i took.</p>
+                <p>
+                Source code Click <a href='https://github.com/dinesdayrit/drumkit' className='text-blue-500 hover:text-blue-800'>Here</a>
+                </p>
+                <p>
+                Deployed on vercel <a href='https://drumkit-ten-delta.vercel.app/' className='text-blue-500 hover:text-blue-800'>Click Here</a>
+                </p>
+                <img src={drumkitpic} className="w-[10rem] md:w-[60rem] mt-4"/>
+
                 </li> 
 
             </ul>
