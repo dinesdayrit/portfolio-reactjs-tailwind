@@ -17,7 +17,6 @@ export default function Skills() {
           <ul className="list-disc pl-6">
           <li>reactjs</li>
           <li>nextjs</li>
-          <li>redux</li>
           <li>tailwindcss</li>
           </ul>
       
