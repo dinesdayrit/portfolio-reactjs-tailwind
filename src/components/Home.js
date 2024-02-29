@@ -5,17 +5,18 @@ export default function Home() {
   return (
     <div className="w-[10rem] mt-16 md:w-[70rem]">
 
-     <div className="flex items-center max-sm:flex-col">
+      <div className="flex items-center max-sm:flex-col">
   
       <img src={profilePic} alt="Profile Picture" className="w-40 h-40 rounded-full mr-4" />
 
+      
       <h2 className="font-bold text-xl md:text-4xl lg:text-5xl text-sky-700">
         Hello, I'm Dines Dayrit! 🌟
       </h2>
 
       </div>
 
-      <p className="mt-10 text-lg md:text-xl text-gray-800 ml-4 justify-evenly text-justify" >
+      <p className="mt-10 md:text-lg text-gray-800 font-medium" >
         A passionate Web Developer specializing in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a startup fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
       </p>
 
