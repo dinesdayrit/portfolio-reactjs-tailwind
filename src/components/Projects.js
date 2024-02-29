@@ -29,7 +29,7 @@ export default function Projects() {
             <ul className="list-disc pl-6">
                 <li className='mb-10'>
                 <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Tax Mapping (GIS Web Application)</h3>
-                <p className="mb-4 text-sm md:text-lg">I am currently working on a GIS Web Application for an LGU. 
+                <p className="mb-4 text-sm md:text-lg font-medium">I am currently working on a GIS Web Application for an LGU. 
                 This application helps users locate the exact location of land properties and can also plot parcels using their land titles' technical descriptions, as well as assign Property Index Numbers (PINs). I use ReactJS for FE , ExpressJS for BE and PostGre for DB.</p>
                
                <Slider {...settings} className="w-[10rem] md:w-[60rem]">
@@ -51,19 +51,19 @@ export default function Projects() {
 
                 <li className='mb-10'>
                 <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">My Portfolio</h3>
-                <p className="mb-4 text-sm md:text-lg">This Portfolio is written using "ReactJS" and "Tailwind".</p>
-                <p className="mb-4 text-sm md:text-lg">
+                <p className="mb-4 text-sm md:text-lg font-medium">This Portfolio is written using "ReactJS" and "Tailwind".</p>
+                <p className="mb-4 text-sm md:text-lg font-medium">
                 Source code Click <a href='https://github.com/dinesdayrit/portfolio-reactjs-tailwind' className='text-blue-500 hover:text-blue-800'>Here</a>
                 </p>
                 </li> 
 
                 <li className='mb-10'>
                 <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Drum Kit</h3>
-                <p className="mb-4 text-sm md:text-lg">A simple interactive drum kit project developed using JavaScript.A simple interactive drum kit project developed using JavaScript. This small application was part of a Udemy course that i took.</p>
-                <p className="mb-4 text-sm md:text-lg">
+                <p className="mb-4 text-sm md:text-lg font-medium">A simple interactive drum kit project developed using JavaScript.A simple interactive drum kit project developed using JavaScript. This small application was part of a Udemy course that i took.</p>
+                <p className="mb-4 text-sm md:text-lg font-medium">
                 Source code Click <a href='https://github.com/dinesdayrit/drumkit' className='text-blue-500 hover:text-blue-800'>Here</a>
                 </p>
-                <p className="mb-4 text-sm md:text-lg">
+                <p className="mb-4 text-sm md:text-lg font-medium">
                 Deployed on vercel <a href='https://drumkit-ten-delta.vercel.app/' className='text-blue-500 hover:text-blue-800'>drumkit-ten-delta.vercel.app/</a>
                 </p>
                 <img src={drumkitpic} className="w-[10rem] md:w-[60rem] mt-4"/>
