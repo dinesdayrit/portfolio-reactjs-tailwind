@@ -22,7 +22,7 @@ export default function Projects() {
        
     
     return (
-      <div className="w-auto mt-16">
+      <div className="w-auto mt-16 lg:w-[70rem]">
         <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700">My Projects</h2>
         <div>
             <div>
