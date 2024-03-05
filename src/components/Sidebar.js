@@ -32,7 +32,7 @@ export default function Sidebar(props) {
     return (
       <nav className=" bg-stone-900 text-stone-50 dark:bg-gray-900 md:rounded-r-xl">
         <div className="flex justify-between p-4 md:flex-col md:w-72">
-        <h2 className="mb-8 md:mt-10 font-bold uppercase md:text-xl text-stone-200">My Portfolio</h2>
+        <h2 className="md:mt-4 font-bold uppercase md:text-xl text-stone-200">My Portfolio</h2>
         
         <button 
          onClick={toggleMenu} 
