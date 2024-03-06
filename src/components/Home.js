@@ -4,7 +4,7 @@ import logo from '../logo/icons8-web-development-64.png'
 
 export default function Home() {
   return (
-    <div className="w-auto mt-16 md:h-auto">
+    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-0">
 
       <div className="flex items-center max-sm:flex-col">
   

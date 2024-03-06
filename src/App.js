@@ -67,7 +67,7 @@ function App() {
       showProjects = {projectsClick}
     />
  
-   <div className="flex-1 overflow-auto bg-orange-100 ml-2 mr-2 md:ml-0">
+   <div className="flex-1 overflow-auto bg-orange-100">
     {showHome && (
       <Home />
     )}
