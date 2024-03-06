@@ -22,7 +22,7 @@ export default function Projects() {
        
     
     return (
-      <div className="w-auto mt-8 md:mt-16 lg:w-[70rem]">
+      <div className="w-auto mt-8 md:mt-16">
         <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700">My Projects</h2>
         <div>
             <div>
@@ -66,7 +66,7 @@ export default function Projects() {
                 <p className="mb-4 text-sm md:text-lg font-medium">
                 Deployed on vercel <a href='https://drumkit-ten-delta.vercel.app/' className='text-blue-500 hover:text-blue-800'>drumkit-ten-delta.vercel.app/</a>
                 </p>
-                <img src={drumkitpic} className="w-[10rem] md:w-[60rem] mt-4"/>
+                <img src={drumkitpic} className="w-[10rem] md:w-[60rem] mt-4" alt="drumkit-pic"/>
 
                 </li> 
 
