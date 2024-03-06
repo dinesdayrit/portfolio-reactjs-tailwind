@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from '../logo/icons8-code-64.png'
 
 export default function Sidebar(props) {
     const buttonStyles = "px-4 py-4 text-xs md:text-base text-sky-400 hover:text-stone-50 uppercase text-left hover:underline";
@@ -31,8 +32,9 @@ export default function Sidebar(props) {
 
     return (
       <nav className=" bg-stone-900 text-stone-50 dark:bg-gray-900 md:rounded-r-xl">
-        <div className="flex justify-between p-4 md:flex-col md:w-72">
-        <h2 className="md:mt-4 font-bold uppercase md:text-xl text-stone-200">My Portfolio</h2>
+        <div className="flex justify-between p-4 md:flex-col md:w-80">
+        
+        <h2 className="md:mt-4 font-bold uppercase md:text-xl text-stone-200 flex flex-row"> <img src={logo} className="h-8 mr-2" alt="experimental-code-pieces" />My Portfolio  </h2>
         
         <button 
          onClick={toggleMenu} 
