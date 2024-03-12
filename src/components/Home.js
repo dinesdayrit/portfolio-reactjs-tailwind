@@ -1,18 +1,18 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profilePic from '../profilepic.jpg';
-import logo from '../logo/icons8-web-development-64.png'
+import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png'
 
 export default function Home() {
   return (
-    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-0">
+    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-0 ">
 
       <div className="flex items-center max-sm:flex-col">
   
       <img src={profilePic} alt="self" className="w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
 
       
-      <h2 className="font-bold text-sm md:text-4xl lg:text-5xl text-sky-700 flex flex-col items-center md:flex-row">
-        Hello, I'm Dines Dayrit! <img src={logo} className='h-8 md:h-12 ml-2' alt='desktop'/>
+      <h2 className="font-bold text-sm md:text-4xl lg:text-5xl text-blue-500 flex flex-col items-center md:flex-row">
+        Hello, I'm Dines Dayrit! <img src={logo} className='h-12 md:h-24 ml-2' alt='desktop'/>
       </h2>
 
       </div>
