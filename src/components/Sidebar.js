@@ -4,11 +4,11 @@ import logo from '../logo/icons8-code-64.png'
 export default function Sidebar(props) {
     const buttonStyles = "px-4 py-4 text-xs md:text-base text-sky-400 hover:text-stone-50 uppercase text-left hover:underline";
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    
+    
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
     };
-  
     
     const homeClick = () =>{
       props.showHome();
@@ -45,7 +45,7 @@ export default function Sidebar(props) {
          aria-expanded={isMenuOpen ? "true" : "false"}
          >
 
-        <span class="sr-only">Open main menu</span>
+        <span className="sr-only">Open main menu</span>
 
         <svg 
          className="w-5 h-5" 
@@ -53,7 +53,7 @@ export default function Sidebar(props) {
          xmlns="http://www.w3.org/2000/svg" 
          fill="none" 
          viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
         </button>
 
