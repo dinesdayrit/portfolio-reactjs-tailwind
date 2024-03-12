@@ -31,8 +31,8 @@ export default function Sidebar(props) {
     }
 
     return (
-      <nav className=" bg-stone-900 text-stone-50 dark:bg-gray-900 md:rounded-r-xl">
-        <div className="flex justify-between p-4 md:flex-col md:w-80">
+      <nav className=" bg-stone-900 text-sky-700  md:rounded-r-xl outline">
+        <div className="flex justify-between p-4 md:flex-col md:w-80 ">
         
         <h2 className="md:mt-4 font-bold uppercase md:text-xl text-stone-200 flex flex-row"> <img src={logo} className="h-8 mr-2" alt="experimental-code-pieces" />My Portfolio  </h2>
         

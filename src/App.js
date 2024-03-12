@@ -57,7 +57,7 @@ function App() {
   }
 
   return (
-   <main className="h-screen md:flex gap-16 bg-orange-100 flex-1 ">
+   <main className="h-screen md:flex gap-16  flex-1  bg-gray-900">
     
     <Sidebar 
       showHome = {homeClick}
@@ -67,7 +67,7 @@ function App() {
       showProjects = {projectsClick}
     />
  
-   <div className="flex-1 overflow-auto bg-orange-100">
+   <div className="flex-1 overflow-auto bg-gray-900">
     {showHome && (
       <Home />
     )}

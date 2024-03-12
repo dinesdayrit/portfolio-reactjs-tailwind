@@ -8,13 +8,13 @@ export default function Skills() {
         <div className="flex flex-col gap-10 md:flex-row md:gap-40">
         <div>
         <p className="font-bold text-orange-500">Frontend:</p>
-        <ul className="list-disc pl-6">
+        <ul className="list-disc pl-6 text-gray-300">
           <li>html</li>
           <li>css</li>
           <li>javascript</li>
           </ul>
           <p className="font-bold text-orange-500 mt-4">Frameworks:</p>
-          <ul className="list-disc pl-6">
+          <ul className="list-disc pl-6 text-gray-300">
           <li>reactjs</li>
           <li>nextjs</li>
           <li>tailwindcss</li>
@@ -25,7 +25,7 @@ export default function Skills() {
 
         <div>
         <p className="font-bold text-orange-500">Backend:</p>
-        <ul className="list-disc pl-6">
+        <ul className="list-disc pl-6 text-gray-300">
           <li>nodejs</li>
           <li>expressjs</li>
         </ul>
@@ -33,7 +33,7 @@ export default function Skills() {
 
         <div>
         <p className="font-bold text-orange-500">DB:</p>
-        <ul className="list-disc pl-6">
+        <ul className="list-disc pl-6 text-gray-300">
           <li>mongoDB</li>
           <li>postgre</li>
         </ul>

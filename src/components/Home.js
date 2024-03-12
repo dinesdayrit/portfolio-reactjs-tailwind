@@ -17,7 +17,7 @@ export default function Home() {
 
       </div>
 
-      <p className="mt-10 md:text-lg text-gray-800 font-medium md:w-10/12 text-justify" >
+      <p className="mt-10 md:text-lg text-gray-300 font-medium md:w-10/12 text-justify" >
         A passionate Web Developer specializing in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a startup fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
       </p>
 
