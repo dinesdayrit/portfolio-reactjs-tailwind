@@ -1,7 +1,9 @@
+import logo from '../logo/imgbin_developer-icon-ui-icon-coding-icon-png.png';
+
 export default function Experience() {
     return (
       <div className="w-auto mt-8 md:mt-16 ml-2 mr-2 md:ml-16">
-        <h2 className="font-serif font-bold text-xl md:text-3xl mb-5  text-sky-700">Programming Job Experience</h2>
+        <h2 className="font-serif font-bold text-xl md:text-3xl mb-5  text-sky-700 flex flex-col md:flex-row gap-4 items-center">Programming Job Experience<img src={logo} alt='coding' className='h-16 animate-bounce-once'/></h2>
   
         <p className="font-serif font-semibold mb-1 text-gray-300">(Aug 2023 - Present) 8 Nexity Technology <br />(<span className="text-sky-500">Web Developer(GIS Web Application for LGU)</span>)</p>
         <p className="font-bold text-orange-500 ">Tech used:</p>

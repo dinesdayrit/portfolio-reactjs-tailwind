@@ -5,7 +5,7 @@ import gishomepic from '../projectpictures/home.png';
 import sampleplotting1 from '../projectpictures/sampleplotting1.png';
 import sampleplotting2 from '../projectpictures/sampleplotting2.png';
 import drumkitpic from '../projectpictures/drumkit.png';
-
+import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png';
 
 
 export default function Projects() {
@@ -23,7 +23,7 @@ export default function Projects() {
     
     return (
       <div className="w-auto mt-8 md:mt-16 ml-2 mr-2 md:ml-16">
-        <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700">My Projects</h2>
+        <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700 flex flex-col md:flex-row items-center gap-4">My Projects <img src={logo} alt="coding" className="h-12 md:h-16  animate-bounce-once"/></h2>
         <div>
             <div>
             <ul className="list-disc pl-6">

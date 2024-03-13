@@ -1,7 +1,11 @@
+import logo from '../logo/pngegg.png';
+
 export default function Skills() {
     return (
       <div className="w-auto mt-8 md:mt-16 ml-2 mr-2 md:ml-16">
-        <h2 className="font-serif font-bold text-xl md:text-3xl mb-5  text-sky-700">Programming Skills</h2>
+        <h2 className="font-serif font-bold text-xl md:text-3xl text-sky-700 flex flex-col md:flex-row gap-4 mb-5 items-center"> Programming Skills  <img src={logo} alt='coding' className='h-16 animate-bounce-once'/></h2>
+
+       
   
         <p className="font-serif font-semibold mb-1 text-sky-500">Tech Stack</p>
         

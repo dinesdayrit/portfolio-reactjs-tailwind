@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profilePic from '../profilepic.jpg';
-import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png'
+import logo from '../logo/imgbin_front-end-web-development-web-developer-front-and-back-ends-software-developer-png.png'
 import '../App.css';
 
 export default function Home() {
