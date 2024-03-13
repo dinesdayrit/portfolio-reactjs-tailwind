@@ -1,6 +1,7 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import profilePic from '../profilepic.jpg';
 import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png'
+import '../App.css';
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
       <img src={profilePic} alt="self" className="w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
 
       
-      <h2 className="font-bold text-sm md:text-4xl lg:text-5xl text-blue-500 flex flex-col items-center md:flex-row ">
-        Hello, I'm Dines Dayrit! <img src={logo} className='h-12 md:h-24 ml-2 animate-bounce-once' alt='desktop'/>
+      <h2 className="font-serif text-sm md:text-4xl text-sky-500 lg:text-5xl flex flex-col items-center md:flex-row md:animate-bounce-once ">
+        Hello, I'm Dines Dayrit!<img src={logo} className='h-12 md:h-24 ml-2' alt='desktop'/>
       </h2>
 
       </div>
