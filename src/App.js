@@ -4,60 +4,41 @@ import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
-import { useState } from "react";
+import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
-  const [showHome, setShowHome] = useState(true);
-  const [showExperience, setShowExperience] = useState(false);
-  const [showSkills, setShowSkills] = useState(false);
-  const [showProjects, setShowProjects] = useState(false);
-  const [showContact, setContact] = useState(false);
- 
 
   const homeClick = () =>{
-    setShowHome(true)
-    setShowExperience(false)
-    setShowSkills(false);
-    setShowProjects(false);
-    setContact(false);
-    
+    window.location.href = '/';
   }
 
   const experienceClick = () => {
-    setShowExperience(true)
-    setShowHome(false)
-    setShowSkills(false);
-    setShowProjects(false);
-    setContact(false);
+    window.location.href = '/Experience';
+    
   }
   const skillsClick = () => {
-    setShowSkills(true);
-    setShowHome(false)
-    setShowExperience(false)
-    setShowProjects(false);
-    setContact(false);
+    window.location.href = '/skills';
   }
 
   const projectsClick =() =>{
-    setShowProjects(true);
-    setShowHome(false)
-    setShowExperience(false)
-    setShowSkills(false);
-    setContact(false);
+    window.location.href = '/projects';
   }
 
   const contactClick = () => {
-    setContact(true);
-    setShowHome(false)
-    setShowSkills(false);
-    setShowProjects(false);
-    setShowExperience(false)
-
+    window.location.href = '/contact';
   }
 
+  const Error404 = () => (
+    <div className="flex flex-col items-center mt-52  h-auto">
+      <h1 className="text-stone-100 font-extrabold text-xl">404 - Not Found</h1>
+      <p className="text-red-500 font-extrabold text-l">The page you are looking for does not exist.</p>
+    </div>
+  );
+
   return (
-   <main className=" md:h-screen md:flex gap-0.5 bg-black">
+    <Router>
+   <main className="md:flex gap-0.5 bg-gradient-to-r from-black via-stone-900 to-orange-900">
 
     <Sidebar 
       showHome = {homeClick}
@@ -67,29 +48,23 @@ function App() {
       showProjects = {projectsClick}
     />
  
- 
-   <div className="flex-1 overflow-auto bg-gradient-to-r from-black via-transparent to-yellow-900 h-screen">
-    {showHome && (
-      <Home />
-    )}
+   <div className="flex-1 overflow-auto h-screen">
+   <Routes>
 
-    {showExperience && (
-    <Experience/>
-    )}
+   <Route path="/" element={<Navigate to="/home" replace />} />
+   <Route path="/home"  element={<Home />} />
+   <Route path="/experience" element={<Experience />} />
+   <Route path="/skills" element={<Skills />} />
+   <Route path="/projects" element={<Projects />} />
+   <Route path="/contact" element={<Contact />} />
+    {/* Catch-all route for 404 errors */}
+   <Route path="*" element={<Error404 />} />
 
-    {showSkills && (
-    <Skills />
-    )} 
-
-    {showProjects && (
-    <Projects />
-    )}
-    {showContact && (
-    <Contact/>
-    )}
+  </Routes>
    </div>
 
    </main>
+   </Router>
   );
 }
 

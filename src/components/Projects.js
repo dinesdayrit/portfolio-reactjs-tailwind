@@ -26,7 +26,7 @@ export default function Projects() {
         <h2 className="font-serif font-bold text-3xl mb-5 text-sky-700 flex flex-col md:flex-row items-center gap-4">My Projects <img src={logo} alt="coding" className="h-12 md:h-16  animate-bounce-once"/></h2>
         <div>
             <div>
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-6 text-gray-300">
                 <li className='mb-10'>
                 <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Tax Mapping (GIS Web Application)</h3>
                 <p className="mb-4 text-sm md:text-lg text-gray-300">I am currently working on a GIS Web Application for an LGU. 
