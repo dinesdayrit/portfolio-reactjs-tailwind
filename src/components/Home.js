@@ -4,20 +4,20 @@ import logo from '../logo/imgbin_web-development-responsive-web-design-web-devel
 
 export default function Home() {
   return (
-    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-0 ">
+    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-16 ">
 
       <div className="flex items-center max-sm:flex-col">
   
       <img src={profilePic} alt="self" className="w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
 
       
-      <h2 className="font-bold text-sm md:text-4xl lg:text-5xl text-blue-500 flex flex-col items-center md:flex-row">
-        Hello, I'm Dines Dayrit! <img src={logo} className='h-12 md:h-24 ml-2' alt='desktop'/>
+      <h2 className="font-bold text-sm md:text-4xl lg:text-5xl text-blue-500 flex flex-col items-center md:flex-row ">
+        Hello, I'm Dines Dayrit! <img src={logo} className='h-12 md:h-24 ml-2 animate-bounce-once' alt='desktop'/>
       </h2>
 
       </div>
 
-      <p className="mt-10 md:text-lg text-gray-300 font-medium md:w-10/12 text-justify" >
+      <p className="mt-10 md:text-lg text-gray-300 md:w-10/12 text-justify" >
         A passionate Web Developer specializing in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a startup fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
       </p>
 

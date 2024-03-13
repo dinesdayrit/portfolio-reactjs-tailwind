@@ -1,6 +1,6 @@
 export default function Experience() {
     return (
-      <div className="w-auto mt-8 md:mt-16 md:w-[70rem] ml-2 mr-2 md:ml-0">
+      <div className="w-auto mt-8 md:mt-16 ml-2 mr-2 md:ml-16">
         <h2 className="font-serif font-bold text-xl md:text-3xl mb-5  text-sky-700">Programming Job Experience</h2>
   
         <p className="font-serif font-semibold mb-1 text-gray-300">(Aug 2023 - Present) 8 Nexity Technology <br />(<span className="text-sky-500">Web Developer(GIS Web Application for LGU)</span>)</p>
