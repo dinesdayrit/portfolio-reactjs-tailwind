@@ -25,7 +25,7 @@ export default function Navbar() {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
-    
+    console.log(scrolled);
    
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
