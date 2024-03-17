@@ -13,7 +13,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="flex flex-col justify-center md:items-center   w-auto bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='projects'>
+    <div className="flex flex-col justify-center md:items-center   w-auto p-16 bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='projects'>
       <h2 className="font-serif font-bold text-3xl mb-8 text-white flex flex-col md:flex-row items-center gap-4">
         Sample Projects <img src={logo} alt="coding" className="h-12 md:h-16  animate-bounce-once" />
       </h2>
