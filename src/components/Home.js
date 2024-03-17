@@ -5,20 +5,20 @@ import '../App.css';
 
 export default function Home() {
   return (
-    <div className="w-auto mt-16 md:h-auto ml-2 mr-2 md:ml-16 ">
+    <div className="flex flex-col justify-center items-center  w-auto h-screen bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='home'>
 
-      <div className="flex items-center max-sm:flex-col">
+      <div className="flex items-center max-sm:flex-col ">
   
-      <img src={profilePic} alt="self" className="w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
+      <img src={profilePic} alt="self" className=" w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
 
       
-      <h2 className="font-serif text-sm md:text-4xl text-sky-500 lg:text-5xl flex flex-col items-center md:flex-row md:animate-bounce-once ">
+      <h2 className=" font-serif text-sm md:text-4xl text-stone-100 lg:text-5xl flex flex-col items-center md:flex-row md:animate-bounce-once ">
         Hello, I'm Dines Dayrit!<img src={logo} className='h-12 md:h-24 ml-2' alt='desktop'/>
       </h2>
 
       </div>
 
-      <p className="mt-10 md:text-lg text-gray-300 md:w-10/12 text-justify" >
+      <p className="mt-10 md:text-lg ml-3 mr-3 text-white md:w-1/2 text-justify" >
         A passionate Web Developer specializing in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a startup fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
       </p>
 

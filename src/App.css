@@ -39,8 +39,33 @@
 
 
 .gradient-text {
-  background: linear-gradient(90deg, rgb(221, 210, 205) 0%, rgb(127, 203, 233) 100%);
+  background: linear-gradient(90deg, rgb(250, 250, 248) 0%, rgb(127, 203, 233) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+
+/* Projects.js scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+ 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Border radius of the thumb */
+ 
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent; /* Background color of the scrollbar track */
+ 
+}
+
+.activeLink {
+  font-weight: bold;
+  border-bottom-width: 2px; /* Border bottom width */
+  border-color: yellow; /* Border color */
 }
