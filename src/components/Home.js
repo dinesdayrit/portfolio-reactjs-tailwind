@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center  w-auto h-screen bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='home'>
 
-      <div className="flex items-center max-sm:flex-col ">
+      <div className="flex items-center max-sm:flex-col mt-16 md:mt-0">
   
       <img src={profilePic} alt="self" className=" w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
 
