@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import gishomepic from '../projectpictures/home.png';
 import drumkitpic from '../projectpictures/drumkit.png';
 import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png';
-import porfoliopic from '../projectpictures/porfolio.png';
+import porfoliopic from '../projectpictures/porfoliov2.png';
 
 
 export default function Projects() {
