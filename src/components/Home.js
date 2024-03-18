@@ -1,37 +1,58 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import profilePic from '../profilepic.jpg';
-import logo from '../logo/imgbin_front-end-web-development-web-developer-front-and-back-ends-software-developer-png.png'
-import '../App.css';
+import homeBg from '../logo/rear-view-programmer-working-all-night-long.jpg';
+
+
+
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center  w-auto h-screen bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='home'>
+    <div className="flex flex-col justify-center items-center w-screen h-screen bg-cover" style={{ backgroundImage: `url(${homeBg})`, width: 'auto' }} id='home'>
+    
 
-      <div className="flex items-center max-sm:flex-col mt-16 md:mt-0">
-  
-      <img src={profilePic} alt="self" className=" w-24 h-24 md:w-40 md:h-40 rounded-full mr-4" />
+    <style jsx>{`
+        @keyframes typing {
+          from { width: 0; }
+          to { width: 100%; }
+        }
 
-      
-      <h2 className=" font-serif text-sm md:text-4xl text-stone-100 lg:text-5xl flex flex-col items-center md:flex-row md:animate-bounce-once ">
-        Hello, I'm Dines Dayrit!<img src={logo} className='h-12 md:h-24 ml-2' alt='desktop'/>
-      </h2>
+        @keyframes blink-caret {
+          from, to { border-color: transparent; }
+          50% { border-color: orange; }
+        }
 
-      </div>
+        .typing-animation .typed-text {
+          display: inline-block;
+          overflow: hidden;
+          border-right: 0.15em solid orange; /* Change the color as needed */
+          white-space: nowrap;
+          margin: 0 auto;
+          animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+      `}</style>
 
-      <p className="mt-10 md:text-lg ml-3 mr-3 text-white md:w-1/2 text-justify" >
-        A passionate Web Developer specializing in React.js and Node.js, I thrive on bringing innovative digital solutions to life. Currently, I am engaged with a startup fintech company here in the Philippines, where I am actively involved in the development of a cutting-edge GIS web application tailored for a Local Government Unit (LGU).
-      </p>
+      <div className="flex items-start flex-col mt-16 md:mt-0 md:w-auto lg:w-[75rem] lg:h-1/2">
+        <h2 className="font-serif font-bold text-4xl md:text-6xl text-stone-100 lg:text-7xl flex flex-col items-center md:flex-row">
+          Hello, <br />I'm Dines!
+        </h2>
 
-        
-      <div className="mt-8 flex flex-col md:flex-row items-center">
-        <a href="https://www.linkedin.com/in/dines-dayrit-067103284/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
-          <FaLinkedin className="inline-block mr-2" />
-          LinkedIn
-        </a>
-        <a href="https://github.com/dinesdayrit" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
-          <FaGithub className="inline-block mr-2" />
-          GitHub
-        </a>
+        <p className="md:text-lg ml-3 mr-3 text-white">
+          A Web Developer{' '}
+          <span className="text-orange-500 font-bold inline-flex typing-animation">
+            <span className="typed-text">React.js | Node.js</span>
+          </span>
+        </p>
+
+
+        <div className="mt-8 flex flex-row max-sm:gap-2 items-center">
+          <a href="https://www.linkedin.com/in/dines-dayrit-067103284/" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
+            <FaLinkedin className="inline-block mr-2" />
+            LinkedIn
+          </a>
+          <a href="https://github.com/dinesdayrit" target="_blank" rel="noopener noreferrer" className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full mb-4 md:mb-0 md:mr-4">
+            <FaGithub className="inline-block mr-2" />
+            GitHub
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="flex flex-col justify-center md:items-center   w-auto p-16 bg-gradient-to-r from-blue-900 via-blue-500 to-sky-300" id='projects'>
+    <div className="flex flex-col justify-center md:items-center   w-auto p-16 bg-gradient-to-r from-sky-700 via-sky-800 to-sky-700" id='projects'>
       <h2 className="font-serif font-bold text-3xl mb-8 text-white flex flex-col md:flex-row items-center gap-4">
         Sample Projects <img src={logo} alt="coding" className="h-12 md:h-16  animate-bounce-once" />
       </h2>
@@ -29,10 +29,10 @@ export default function Projects() {
               I am currently working on a GIS Web Application for an LGU. This application helps users locate the exact location of land properties and can also plot parcels using their land
               titles' technical descriptions, as well as assign Property Index Numbers (PINs). I use ReactJS for FE , ExpressJS for BE and PostGre for DB.
               <div className="flex flex-col md:flex-row h-auto w-auto mt-4 items-center">
-              <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-2">ReactJS</i>
-              <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-2">NodeJS</i>
-              <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-2">PostGre</i>
-              <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-2">Oracle Cloud (via PUTTY)</i>
+              <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white  py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-2">ReactJS</i>
+              <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-2">NodeJS</i>
+              <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-2">PostGre</i>
+              <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-2">Oracle Cloud (via PUTTY)</i>
             </div>
             </p>
             </div>  
@@ -46,8 +46,8 @@ export default function Projects() {
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
                 <img src={porfoliopic} alt="portfoliopic" className="outline mt-2 md:w-[30rem] w-[10rem]" />
                 <div className="flex flex-col md:flex-row items-center mt-4">
-                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
-                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Tailwindcss</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white  py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
+                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Tailwindcss</i>
                 </div>
                 </div>
                 <p className="mb-4 text-sm md:text-lg text-white">
@@ -77,9 +77,9 @@ export default function Projects() {
                 <img src={drumkitpic} className="w-[10rem] md:w-[30rem] mt-4" alt="drumkit-pic" />
                 <p className="mb-4 text-sm md:text-lg text-white">A simple interactive drum kit project developed using JavaScript. This small application was part of a Udemy course that i took.
                 <div className="flex flex-col md:flex-row items-center mt-4">
-                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">HTML</i>
-                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">css</i>
-                  <i className="inline-block bg-orange-600 hover:bg-orange-800 text-white font-bold py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">JavaScript</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">HTML</i>
+                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">css</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-800 text-white py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">JavaScript</i>
                 </div>
                 </p>
                 

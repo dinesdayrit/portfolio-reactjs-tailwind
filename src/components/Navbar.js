@@ -35,7 +35,7 @@ export default function Navbar() {
 
     return (
       
-      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-600' : ''} ${isMenuOpen ? 'bg-blue-600' : ''}`}>
+      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-sky-900' : ''} ${isMenuOpen ? 'bg-sky-900' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
         <h2 className="font-extrabold items-center md:text-xl flex flex-row md:ml-52"> <img src={logo} className="h-12 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> 
