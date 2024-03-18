@@ -7,6 +7,7 @@ export default function Navbar() {
     const menuStyles = "px-4 py-4 text-xs md:text-base text-sky-400 text-white  uppercase text-left hover:underline-yellow-200 hover:border-b-2 hover:border-yellow-200";
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+  
 
     useEffect(() => {
       function handleScroll() {
@@ -25,7 +26,6 @@ export default function Navbar() {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
-
   
    
     const toggleMenu = () => {
@@ -34,7 +34,8 @@ export default function Navbar() {
     
 
     return (
-      <nav className={`items-center bg-transparent md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-700' : ''} ${isMenuOpen ? 'bg-blue-700' : ''}`}>
+      
+      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-900' : ''} ${isMenuOpen ? 'bg-blue-900' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
         <h2 className="font-extrabold uppercase md:text-xl flex flex-row md:ml-32"> <img src={logo} className="h-8 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">My Portfolio</span> </h2>
@@ -66,55 +67,60 @@ export default function Navbar() {
        
           <Link
           className={menuStyles}
-          // activeClass="activeLink" 
+          activeClass="activeLink" 
           to="home" 
           spy={true} 
           smooth={true} 
           offset={-100} 
           duration={500} 
+          onClick={toggleMenu}
           >Home</Link>
 
           <Link
           className={menuStyles}
-          // activeClass="activeLink" 
+          activeClass="activeLink" 
           to="experience" 
           spy={true} 
           smooth={true} 
           offset={-100} 
           duration={500} 
+          onClick={toggleMenu}
           >Experience</Link>
 
           <Link 
           className={menuStyles}
-          // activeClass="activeLink" 
+          activeClass="activeLink" 
           to="projects" 
           spy={true} 
           smooth={true} 
           offset={-100} 
           duration={500} 
+          onClick={toggleMenu}
           >Projects</Link>
 
           <Link 
           className={menuStyles}
-          // activeClass="activeLink" 
+          activeClass="activeLink" 
           to="skills" 
           spy={true} 
           smooth={true} 
           offset={-100} 
           duration={500} 
+          onClick={toggleMenu}
           >Skills</Link>
 
           <Link
           className={menuStyles}
-          // activeClass="activeLink" 
+          activeClass="activeLink" 
           to="contact" 
           spy={true} 
           smooth={true} 
           offset={-100} 
-          duration={500} 
+          duration={500}
+          onClick={toggleMenu} 
           >Contact</Link>
         </div>
-      </nav>
+      </div>
       
     );
   }
