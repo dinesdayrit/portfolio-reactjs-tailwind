@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from '../logo/icons8-code-64.png';
+import logo from '../logo/icons8-laptop-coding-100.png';
 import {Link} from 'react-scroll';
 import '../App.css';
 
@@ -35,10 +35,10 @@ export default function Navbar() {
 
     return (
       
-      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-500' : ''} ${isMenuOpen ? 'bg-blue-500' : ''}`}>
+      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-600' : ''} ${isMenuOpen ? 'bg-blue-600' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
-        <h2 className="font-extrabold uppercase md:text-xl flex flex-row md:ml-32"> <img src={logo} className="h-8 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">My Portfolio</span> </h2>
+        <h2 className="font-extrabold items-center uppercase md:text-xl flex flex-row md:ml-52"> <img src={logo} className="h-12 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">DMD</span> </h2>
         
         <button 
          onClick={toggleMenu} 
