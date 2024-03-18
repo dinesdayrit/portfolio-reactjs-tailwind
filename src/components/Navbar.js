@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="flex justify-between p-3 md:flex-row">
         
         <h2 className="font-extrabold items-center md:text-xl flex flex-row md:ml-52"> <img src={logo} className="h-12 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> 
-        <span className="gradient-text">dMD</span> 
+        <span className="gradient-text">DMD</span> 
         </h2>
         
         <button 
