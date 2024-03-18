@@ -46,23 +46,6 @@
 }
 
 
-/* Projects.js scrollbar */
-.custom-scrollbar::-webkit-scrollbar {
-  width: 10px; /* Width of the scrollbar */
- 
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Border radius of the thumb */
- 
-
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background-color: transparent; /* Background color of the scrollbar track */
- 
-}
 
 .activeLink {
   font-weight: bold;

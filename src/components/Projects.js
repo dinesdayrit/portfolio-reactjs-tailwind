@@ -3,7 +3,7 @@ import gishomepic from '../projectpictures/home.png';
 import drumkitpic from '../projectpictures/drumkit.png';
 import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png';
 import porfoliopic from '../projectpictures/porfolio.png';
-import '../App.css'
+
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);

@@ -66,7 +66,7 @@ export default function Navbar() {
        
           <Link
           className={menuStyles}
-          activeClass="activeLink" 
+          // activeClass="activeLink" 
           to="home" 
           spy={true} 
           smooth={true} 
@@ -76,7 +76,7 @@ export default function Navbar() {
 
           <Link
           className={menuStyles}
-          activeClass="activeLink" 
+          // activeClass="activeLink" 
           to="experience" 
           spy={true} 
           smooth={true} 
@@ -86,7 +86,7 @@ export default function Navbar() {
 
           <Link 
           className={menuStyles}
-          activeClass="activeLink" 
+          // activeClass="activeLink" 
           to="projects" 
           spy={true} 
           smooth={true} 
@@ -96,7 +96,7 @@ export default function Navbar() {
 
           <Link 
           className={menuStyles}
-          activeClass="activeLink" 
+          // activeClass="activeLink" 
           to="skills" 
           spy={true} 
           smooth={true} 
@@ -106,7 +106,7 @@ export default function Navbar() {
 
           <Link
           className={menuStyles}
-          activeClass="activeLink" 
+          // activeClass="activeLink" 
           to="contact" 
           spy={true} 
           smooth={true} 
