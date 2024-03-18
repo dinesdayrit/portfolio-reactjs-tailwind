@@ -35,7 +35,7 @@ export default function Navbar() {
 
     return (
       
-      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-900' : ''} ${isMenuOpen ? 'bg-blue-900' : ''}`}>
+      <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-500' : ''} ${isMenuOpen ? 'bg-blue-500' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
         <h2 className="font-extrabold uppercase md:text-xl flex flex-row md:ml-32"> <img src={logo} className="h-8 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">My Portfolio</span> </h2>
