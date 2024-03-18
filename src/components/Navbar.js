@@ -38,7 +38,9 @@ export default function Navbar() {
       <div className={`items-center md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-600' : ''} ${isMenuOpen ? 'bg-blue-600' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
-        <h2 className="font-extrabold items-center uppercase md:text-xl flex flex-row md:ml-52"> <img src={logo} className="h-12 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">DMD</span> </h2>
+        <h2 className="font-extrabold items-center md:text-xl flex flex-row md:ml-52"> <img src={logo} className="h-12 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> 
+        <span className="gradient-text">dMD</span> 
+        </h2>
         
         <button 
          onClick={toggleMenu} 
