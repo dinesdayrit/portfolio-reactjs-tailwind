@@ -22,7 +22,7 @@ export default function Skills() {
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-js "></i>JavaScript</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-react "></i>ReactJS</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-css3 "></i>css modules</li>
-          <li className='bg-blue-950 rounded-full mb-1 flex'><img src={tailwindLogo} alt="Tailwind CSS" className="w-4 h-6 mr-1"/>tailwindcss</li>
+          <li className='bg-blue-950 rounded-full mb-1 flex'><img src={tailwindLogo} alt="Tailwind CSS" className="w-4 h-6 ml-1"/>tailwindcss</li>
           </ul>
 
       
