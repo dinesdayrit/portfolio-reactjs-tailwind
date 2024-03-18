@@ -3,6 +3,7 @@ import tailwindLogo from '../logo/tailwind-css-svgrepo-com (1).svg';
 import expressLogo from '../logo/express-svgrepo-com.svg';
 import mongoDBLogo from '../logo/mongodb-svgrepo-com.svg';
 import postgreLogo from '../logo/postgresql-svgrepo-com.svg'
+import restAPILogo from '../logo/rest-api-svgrepo-com.svg'
 
 export default function Skills() {
     return (
@@ -30,6 +31,7 @@ export default function Skills() {
         <div>
         <p className="font-bold text-orange-500">Backend:</p>
         <ul className="text-gray-300">
+        <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={restAPILogo} alt="rest api" className="w-4 h-6 mr-1"/>Rest API</li>
         <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-node-js "></i>nodejs</li>
         <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={expressLogo} alt="express js" className="w-4 h-6 mr-1"/>ExpressJS</li>
         <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-git-alt "></i>Git</li>
