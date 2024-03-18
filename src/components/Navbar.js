@@ -25,7 +25,18 @@ export default function Navbar() {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
+
+    let navBarBg = ''
+
+    if(scrolled === true) {
+      navBarBg = 'bg-blue-700'
+    } else {
+      navBarBg = ''
+    }
+
+    console.log(navBarBg)
     
+
    
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
@@ -33,7 +44,7 @@ export default function Navbar() {
     
 
     return (
-      <nav className={`items-center bg-transparent md:flex fixed top-0 w-screen z-50 ${scrolled ? 'bg-blue-500' : ''} ${isMenuOpen ? 'bg-blue-500' : ''}`}>
+      <nav className={`items-center bg-transparent md:flex fixed top-0 w-screen z-50 ${navBarBg} ${isMenuOpen ? 'bg-blue-700' : ''}`}>
         <div className="flex justify-between p-3 md:flex-row">
         
         <h2 className="font-extrabold uppercase md:text-xl flex flex-row md:ml-32"> <img src={logo} className="h-8 mr-2 animate-bounce-once" alt="experimental-code-pieces" /> <span className="gradient-text">My Portfolio</span> </h2>
