@@ -70,22 +70,3 @@
   border-color: yellow; /* Border color */
 }
 
-
-.nav {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  z-index: 50;
-  transition: background-color 0.3s ease; /* Add transition for smooth color change */
-}
-
-.nav.scrolled {
-  background-color: rgb(30, 30, 218); /* Change background color when scrolled */
-}
-
-.nav.open {
-  background-color: rgb(30, 30, 218); /* Change background color when open */
-}
