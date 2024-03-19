@@ -75,7 +75,7 @@ export default function Projects() {
 
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
                 <img src={drumkitpic} className="w-[10rem] md:w-[30rem] mt-4" alt="drumkit-pic" />
-                <p className="mb-4 text-sm md:text-lg text-white">A simple interactive drum kit project developed using JavaScript. This small application was part of a Udemy course that i took.
+                <p className="mb-4 text-sm md:text-lg text-white">A simple interactive drum kit project developed using JavaScript.
                 <div className="flex flex-col md:flex-row items-center mt-4">
                   <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">HTML</i>
                   <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">css</i>
