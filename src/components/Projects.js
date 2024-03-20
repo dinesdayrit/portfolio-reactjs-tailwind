@@ -45,7 +45,7 @@ export default function Projects() {
 
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
                 <img src={reactQuicPic} className="w-[10rem] md:w-[30rem] mt-4 outline" alt="drumkit-pic" />
-                <p className="mb-4 text-sm md:text-lg text-white">A simple quiz app that i built for my 3 year old son.
+                <p className="mb-4 text-sm md:text-lg text-white">A simple quiz app that i built for my 4 years old son.
                 <div className="flex flex-col md:flex-row items-center mt-4">
                   <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
                   <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Vite</i>
