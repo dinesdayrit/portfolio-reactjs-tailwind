@@ -5,6 +5,7 @@ import mongoDBLogo from '../logo/mongodb-svgrepo-com.svg';
 import postgreLogo from '../logo/postgresql-svgrepo-com.svg';
 import restAPILogo from '../logo/rest-api-svgrepo-com.svg';
 import TSLogo from '../logo/typescript-svgrepo-com.svg';
+import reduxLogo from '../logo/redux-logo-svgrepo-com.svg';
 
 
 export default function Skills() {
@@ -23,9 +24,10 @@ export default function Skills() {
           
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-js "></i>JavaScript</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-react "></i>ReactJS</li>
-          <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={TSLogo} alt="Typescript" className="w-4 h-6 mr-1"/>Typescript</li>
+          <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={TSLogo} alt="Typescript" className="w-4 h-6 mr-1"/>TypeScript</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-css3 "></i>css modules</li>
           <li className='bg-blue-950 rounded-full mb-1 flex'><img src={tailwindLogo} alt="Tailwind CSS" className="w-4 h-6 ml-1"/>tailwindcss</li>
+          <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={reduxLogo} alt="redux" className="w-4 h-6 mr-1"/>Redux</li>
           </ul>
 
       
