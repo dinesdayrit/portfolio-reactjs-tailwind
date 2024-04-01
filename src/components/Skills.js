@@ -2,8 +2,10 @@ import logo from '../logo/pngegg.png';
 import tailwindLogo from '../logo/tailwind-css-svgrepo-com (1).svg';
 import expressLogo from '../logo/express-svgrepo-com.svg';
 import mongoDBLogo from '../logo/mongodb-svgrepo-com.svg';
-import postgreLogo from '../logo/postgresql-svgrepo-com.svg'
-import restAPILogo from '../logo/rest-api-svgrepo-com.svg'
+import postgreLogo from '../logo/postgresql-svgrepo-com.svg';
+import restAPILogo from '../logo/rest-api-svgrepo-com.svg';
+import TSLogo from '../logo/typescript-svgrepo-com.svg';
+
 
 export default function Skills() {
     return (
@@ -21,6 +23,7 @@ export default function Skills() {
           
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-js "></i>JavaScript</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-react "></i>ReactJS</li>
+          <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1 flex'><img src={TSLogo} alt="Typescript" className="w-4 h-6 mr-1"/>Typescript</li>
           <li className='bg-blue-950 rounded-full px-2 py-.5 mb-1'><i className="fa-brands fa-css3 "></i>css modules</li>
           <li className='bg-blue-950 rounded-full mb-1 flex'><img src={tailwindLogo} alt="Tailwind CSS" className="w-4 h-6 ml-1"/>tailwindcss</li>
           </ul>
