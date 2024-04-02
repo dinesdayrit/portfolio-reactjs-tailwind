@@ -81,6 +81,17 @@ export default function Navbar() {
           <Link
           className={menuStyles}
           activeClass="activeLink" 
+          to="about" 
+          spy={true} 
+          smooth={true} 
+          offset={-100} 
+          duration={500} 
+          onClick={toggleMenu}
+          >About</Link>
+
+          <Link
+          className={menuStyles}
+          activeClass="activeLink" 
           to="experience" 
           spy={true} 
           smooth={true} 
