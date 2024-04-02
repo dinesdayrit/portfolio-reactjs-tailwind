@@ -15,10 +15,10 @@ function App() {
 
   return (
 
-   <main className="flex flex-col">
+   <main className="flex flex-col bg-gray-200">
   
    <Navbar />
-   <Home />
+   <Home/>
    <About />
    <Experience />
    <Projects />

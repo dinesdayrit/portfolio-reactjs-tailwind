@@ -6,7 +6,7 @@ import homeBg from '../logo/rear-view-programmer-working-all-night-long.jpg';
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen bg-cover" style={{ backgroundImage: `url(${homeBg})`, width: 'auto' }} id='home'>
+    <div className="flex flex-col justify-center items-center w-screen h-screen bg-cover rounded-tr-3xl rounded-bl-3xl" style={{ backgroundImage: `url(${homeBg})`, width: 'auto' }} id='home'>
     
 
     <style jsx>{`

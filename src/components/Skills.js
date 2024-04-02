@@ -10,7 +10,7 @@ import reduxLogo from '../logo/redux-logo-svgrepo-com.svg';
 
 export default function Skills() {
     return (
-      <div className="flex flex-col items-center  w-auto h-auto p-16" id='skills'>
+      <div className="flex flex-col items-center  w-auto h-auto bg-gray-200 p-24" id='skills'>
         <h2 className="font-serif font-bold text-xl md:text-3xl text-sky-700 flex flex-col md:flex-row gap-4 mb-5 items-center"> Programming Skills  <img src={logo} alt='coding' className='h-16 animate-bounce-once'/></h2>
 
        

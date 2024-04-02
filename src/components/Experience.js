@@ -2,7 +2,7 @@ import logo from '../logo/imgbin_developer-icon-ui-icon-coding-icon-png.png';
 
 export default function Experience() {
     return (
-      <div className="flex flex-col justify-center items-center h-auto  w-auto p-16 bg-gray-100" id='experience'>
+      <div className="flex flex-col justify-center items-center h-auto  w-auto p-16 bg-gray-200" id='experience'>
        <div>
         <h2 className="font-serif font-bold text-xl md:text-3xl mb-5  text-sky-700 flex flex-col md:flex-row gap-4 items-center">Programming Job Experience<img src={logo} alt='coding' className='h-16 animate-bounce-once'/></h2>
        
