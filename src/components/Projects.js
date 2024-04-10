@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import gishomepic from '../projectpictures/home.png';
 import drumkitpic from '../projectpictures/drumkit.png';
 import logo from '../logo/imgbin_web-development-responsive-web-design-web-developer-software-developer-png.png';
-import porfoliopic from '../projectpictures/porfoliov2.png';
 import reactQuicPic from '../projectpictures/reactQuiz.png';
+import dialPic from '../projectpictures/dial.png'
 
 
 export default function Projects() {
@@ -25,7 +25,7 @@ export default function Projects() {
             <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Tax Mapping (GIS Web Application)</h3>
 
             <div className='flex flex-col md:flex-row gap-2 items-center'>
-            <img src={gishomepic} alt="Gis menupage" className="mt-2 w-[10rem] md:w-[30rem] outline" />
+            <img src={gishomepic} alt="Gis menupage" className="mt-2 w-[10rem] md:w-[30rem] outline rounded-xl" />
             <p className={`mb-4 text-sm md:text-lg text-white ${!showAll ? 'h-auto' : ''}`}>
               I am currently working on a GIS Web Application for an LGU. This application helps users locate the exact location of land properties and can also plot parcels using their land
               titles' technical descriptions, as well as assign Property Index Numbers (PINs). I use ReactJS for FE , ExpressJS for BE and PostGre for DB.
@@ -39,27 +39,33 @@ export default function Projects() {
             </div>  
 
           </li>
-        
+
+
           <li className="mb-10">
-                <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Toddler Quiz</h3>
+                <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">DiAL Hub Online Store</h3>
 
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
-                <img src={reactQuicPic} className="w-[10rem] md:w-[30rem] mt-4 outline" alt="drumkit-pic" />
-                <p className="mb-4 text-sm md:text-lg text-white">A simple quiz app that i built for my 4 years old son.
+                <img src={dialPic} className=" w-[10rem] md:w-[30rem] mt-4 outline rounded-xl" alt="drumkit-pic" />
+                <p className="mb-4 text-sm md:text-lg text-white">A web application for Online Store.
                 <div className="flex flex-col md:flex-row items-center mt-4">
-                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">React</i>
                   <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Vite</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">TypeScript</i>
+                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Tailwind</i>
                 </div>
                 </p>
                 
                 </div>
                 <p className="mb-4 text-sm md:text-lg text-gray-100">
-                  Source code on GitHub Click <a href="https://github.com/dinesdayrit/react-quiz" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
+                  Source code on GitHub Click <a href="https://github.com/dinesdayrit/DiALHub-Store-React-TS-Tailwind" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
                 </p>
                 <p className="mb-4 text-sm md:text-lg text-white">
-                  Live Site <a href="https://react-quiz-dinesdayrit.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
+                  Live Site <a href="https://dial-hub.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
                 </p>
               </li>
+
+
+          
           
  
 
@@ -78,27 +84,31 @@ export default function Projects() {
             <>
 
             <li className="mb-10">
-                <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl" >My Portfolio</h3>
+                <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Toddler Quiz</h3>
 
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
-                <img src={porfoliopic} alt="portfoliopic" className="outline mt-2 md:w-[30rem] w-[10rem]" />
+                <img src={reactQuicPic} className="w-[10rem] md:w-[30rem] mt-4 outline rounded-xl" alt="drumkit-pic" />
+                <p className="mb-4 text-sm md:text-lg text-white">A simple quiz app that i built for my 4 years old son.
                 <div className="flex flex-col md:flex-row items-center mt-4">
-                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white  py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
-                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Tailwindcss</i>
+                  <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">ReactJS</i>
+                  <i className="inline-block bg-gray-800 hover:bg-gray-900 text-white  py-1 px-2  rounded-full mb-2 md:mb-0 md:mr-4">Vite</i>
                 </div>
-                </div>
-                <p className="mb-4 text-sm md:text-lg text-white">
-                  Source code on GitHub Click <a href="https://github.com/dinesdayrit/portfolio-reactjs-tailwind" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here!</a>
                 </p>
                 
-
+                </div>
+                <p className="mb-4 text-sm md:text-lg text-gray-100">
+                  Source code on GitHub Click <a href="https://github.com/dinesdayrit/react-quiz" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
+                </p>
+                <p className="mb-4 text-sm md:text-lg text-white">
+                  Live Site <a href="https://react-quiz-dinesdayrit.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-800 underline">Here</a>
+                </p>
               </li>
 
               <li className="mb-10">
                 <h3 className="uppercase font-bold text-orange-500 text-sm md:text-xl">Drum Kit</h3>
 
                 <div className='flex flex-col md:flex-row gap-2 items-center'>
-                <img src={drumkitpic} className="w-[10rem] md:w-[30rem] mt-4 outline" alt="drumkit-pic" />
+                <img src={drumkitpic} className="w-[10rem] md:w-[30rem] mt-4 outline rounded-xl" alt="drumkit-pic" />
                 <p className="mb-4 text-sm md:text-lg text-white">A simple interactive drum kit project developed using JavaScript.
                 <div className="flex flex-col md:flex-row items-center mt-4">
                   <i className="inline-block bg-orange-600 hover:bg-orange-700 text-white py-1 px-2 rounded-full mb-2 md:mb-0 md:mr-4">HTML</i>
